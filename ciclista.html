@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Sergio García Santamarina" />
+    <meta name="description" content="Documento sobre el ciclista Carlos Rodriguez en el proyecto LaVuelta2026" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+                <h1><a href="index.html">LaVuelta2026</a></h1>
+
+
+        <nav>
+            <a href="index.html" title="Ir a la página de inicio">Inicio</a>
+            <a href="ciclista.html" title="Consultar la información de Carlos Rodriguez" aria-current="page">Ciclista</a>
+            <a href="equipo.html" title="Consultar la información de NETCOMPANY INEOS CYCLING TEAM">Equipo</a>
+            <a href="etapa.html" title="Consultar la información de la etapa">Etapa</a>
+            <a href="meteorologia.html" title="Consultar la meteorología">Meteorología</a>
+            <a href="clasificaciones.html" title="Consultar las clasificaciones">Clasificaciones</a>
+            <a href="juegos.html" title="Acceder a los juegos">Juegos</a>
+            <a href="ayuda.html" title="Consultar la ayuda del sitio">Ayuda</a>
+        </nav>
+    </header>
+    <nav aria-label="migas">
+    <ol>
+        <li><a href="index.html">Inicio</a> | </li>
+        <li>Ciclista</li>
+    </ol>
+</nav>
+    <main>
+    <h2>Información de Carlos Rodriguez</h2>
+
+    <section>
+        <h3>Datos personales</h3>
+        <ul>
+            <li>Carlos Rodriguez</li>
+            <li>02/02/2001</li>
+            <li>España</li>
+            <li>NETCOMPANY INEOS CYCLING TEAM</li>
+            <li>65</li>
+        </ul>
+
+        <picture>
+            <source srcset="multimedia/ciclista-movil.png" 
+                media="(max-width: 768px)" 
+                width="180" height="273" />
+
+            <source srcset="multimedia/ciclista-tablet.png" 
+                media="(max-width: 1024px)" 
+                width="240" height="364" />
+
+            <img src="multimedia/ciclista.png"
+                alt="Fotografía de Carlos Rodriguez con el maillot del equipo NETCOMPANY INEOS CYCLING TEAM"
+                width="300" height="455" />
+        </picture>
+    </section>
+    <section>
+        <h3>Multimedia</h3>
+        <p>
+        Equipo
+        <a href="https://www.lavuelta.es/es/equipo/NCI/netcompany-ineos-cycling-team">
+            NETCOMPANY INEOS CYCLING TEAM
+        </a>
+        en la Vuelta Ciclista a España 2026.
+        </p>
+
+        <video controls="controls" 
+            width="480"
+            height="270"
+            poster="multimedia/ineos-poster.png">
+            
+            <source src="multimedia/ineos-presentacion.webm" type="video/webm" />
+            <source src="multimedia/ineos-presentacion.mp4" type="video/mp4" />
+            Tu navegador no puede reproducir este vídeo.
+         </video>
+
+    <audio controls="controls">
+        <source src="multimedia/historia.mp3" type="audio/mp3" />
+        <source src="multimedia/historia.wav" type="audio/wav" />
+        Tu navegador no puede reproducir este audio.
+    </audio>
+
+    </section>
+
+    <section>
+        <h3>Datos equipos</h3>
+        <ol>
+            <li>NETCOMPANY INEOS CYCLING TEAM</li>
+            <li>Polartec - Kometa Junior Team</li>
+        </ol>
+    </section>
+
+    <section>
+        <h3>Temporada 2025</h3>
+
+        <table>
+    <thead>
+        <tr>
+            <th id="dato" scope="col">Nombre del dato</th>
+            <th id="resultado" scope="col">Resultado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th id="carreras" scope="row">Carreras disputadas</th>
+            <td headers="carreras resultado">15</td>
+        </tr>
+        <tr>
+            <th id="victorias-etapa" scope="row">Victorias de etapa</th>
+            <td headers="victorias-etapa resultado">0</td>
+        </tr>
+        <tr>
+            <th id="victorias-general" scope="row">Victorias clasificación general</th>
+            <td headers="victorias-general resultado">15</td>
+        </tr>
+        <tr>
+            <th id="podios" scope="row">Podios conseguidos</th>
+            <td headers="podios resultado">31</td>
+        </tr>
+        <tr>
+            <th id="maillots" scope="row">Maillots especiales</th>
+            <td headers="maillots resultado">0</td>
+        </tr>
+        <tr>
+            <th id="mejor-puesto" scope="row">Mejor puesto en la general</th>
+            <td headers="mejor-puesto resultado">34</td>
+        </tr>
+    </tbody>
+</table>
+    </section>
+    </main>
+<footer>
+    <p>Sergio García Santamarina</p>
+    <address>
+        <a href="mailto:UO294636@uniovi.es">UO294636@uniovi.es</a>
+    </address>
+</footer>
+</body>
+
+</html>

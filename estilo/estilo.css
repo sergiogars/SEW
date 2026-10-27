@@ -1,0 +1,134 @@
+/* ***************************************/
+/*             LaVuelta2026              */
+/*          Estilos generales            */
+/* ***************************************/
+/*    DATOS ESTUDIANTE                   */
+/* --------------------------------------*/
+/*  Nombre y Apellidos: Sergio García Santamarina */
+/*  Correo electrónico (uniovi): UO294636@uniovi.es */
+/*  Grupo de laboratorio:       L2         */
+/* ***************************************/
+
+/* Paleta y contraste medidos con WebAIM (texto normal AAA: 7:1).
+   Negro:      #000000
+   Blanco:     #FFFFFF
+   Principal:  #123A5A
+   Secundario: #DFF4F2
+
+   Principal / blanco:     11.8:1  (AAA)
+   Secundario / negro:     18.36:1  (AAA)
+   Principal / secundario:  10.32:1  (AAA)
+*/
+
+/* Especificidad: 010 */
+:root {
+    --color-principal: #123A5A;
+    --color-secundario: #DFF4F2;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+}
+
+/* Especificidad: 001 */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-negro);
+    background-color: var(--color-blanco);
+}
+
+/* Especificidad: 001,001 */
+header,
+footer {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+
+
+
+/* Especificidad: 001,001,001,001,001 */
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-principal);/* ADVERTENCIA: se hereda el background de body */
+    
+}
+
+/* Especificidad: 002,002*/
+header a,
+footer a {
+    /*color: inherit;/* ADVERTENCIA: los enlaces heredan el color blanco de header y footer; el fondo transparente deja ver su fondo --color-principal. */
+    color: var(--color-blanco);
+    text-decoration-line: none;
+}
+
+/* Especificidad: 012 */
+header a[aria-current="page"] {
+    color: var(--color-principal);
+    background-color: var(--color-secundario);
+    font-weight: bold;
+}
+
+/* Especificidad: 013 */
+header + nav[aria-label="migas"] > ol {
+    font-size: 0.9em;
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Especificidad: 014 */
+header + nav[aria-label="migas"] > ol > li {
+    display: inline;
+}
+
+/* Especificidad: 024 */
+header + nav[aria-label="migas"] > ol > li:last-child {
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(> picture) > ul > li:first-child {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+/* Especificidad: 014 */
+section:has(> picture) > ul > li:nth-child(3) {
+    font-size: 1.25em;
+}
+
+/* Especificidad: 014 */
+section:has(> picture) > ul > li:nth-child(4) {
+    font-weight: bold;
+}
+
+/* Estilos que se aplican a la tabla*/
+/* Especificidad: 001 */
+table {
+    border-collapse: collapse;
+}
+
+/* Especificidad: 001 */
+thead {
+    color: var(--color-blanco);
+    background-color: var(--color-principal);
+}
+
+/* Especificidad: 001,001 */
+th,
+td {
+    border: 1px solid var(--color-principal);
+    padding: 0.5em;
+}
+
+/* Especificidad: 002 */
+tbody th {
+    text-align: left;
+}
+
+/* Especificidad: 002 */
+tbody td {
+    text-align: right;
+}
+
+

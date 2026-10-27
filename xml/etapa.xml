@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa>
+  <nombre>Vall D’Alba a Aramón Valdelinares</nombre>
+  <numero>7</numero>
+  <longitud_etapa unidades="km">149.8</longitud_etapa>
+  <fecha>28-08-2026</fecha>
+  <tiempo_ganador>3:49:47</tiempo_ganador>
+  <velocidad_media unidades="km/h">39.11</velocidad_media>
+  <desnivel unidades="m">3685</desnivel>
+
+  <salida>
+    <lugar>Salida lanzada en la CV-158, dirección Vilafamés</lugar>
+            <coordenadas>
+      <longitud unidades="grados">-0º 02' 24.00''</longitud>
+      <latitud unidades="grados">40º 09' 32.40''</latitud>
+      <altitud unidades="m">275</altitud>
+    </coordenadas>
+  </salida>
+
+  <llegada>
+    <lugar>Estación de esquí de Aramón Valdelinares</lugar>
+            <coordenadas>
+      <longitud unidades="grados">-0º 37' 58.01''</longitud>
+      <latitud unidades="grados">40º 22' 48.29''</latitud>
+      <altitud unidades="m">1963</altitud>
+    </coordenadas>
+  </llegada>
+
+  <tipo valor="montaña"/>
+
+  <referencias>
+    <referencia>https://es.wikipedia.org/wiki/Vall_d%27Alba</referencia>
+    <referencia>https://es.wikipedia.org/wiki/Aram%C3%B3n_Valdelinares</referencia>
+    <referencia>https://www.lavuelta.es/es/etapa-7</referencia>
+  </referencias>
+
+
+  <fotografias>
+    <fotografia archivo="../multimedia/Salida.jpg" descripcion="Lugar de Salida de la etapa"/>
+  </fotografias>
+  <videos>
+    <video archivo="../multimedia/videoEtapa7.mp4" descripcion="Vídeo de la etapa"/>
+  </videos>
+  <sonidos>
+    <sonido archivo="../multimedia/podcastEtapa7.mp3" descripcion="Podcast de la etapa"/>
+  </sonidos>
+
+  <hitos>
+    <puerto categoria="segunda" bonificado="no">
+      <nombre>Puerto El Remolcador</nombre>
+      <coordenadas>
+        <longitud unidades="grados">-0º 21' 00.72''</longitud>
+        <latitud unidades="grados">40º 08' 27.96''</latitud>
+        <altitud unidades="m">985</altitud>
+      </coordenadas>
+      <distancia unidades="km">52.2</distancia>
+    </puerto>
+    <puerto categoria="tercera" bonificado="no">
+      <nombre>Alto de Zucaina</nombre>
+      <coordenadas>
+        <longitud unidades="grados">-0º 25' 15.60''</longitud>
+        <latitud unidades="grados">40º 07' 53.40''</latitud>
+        <altitud unidades="m">877</altitud>
+      </coordenadas>
+      <distancia unidades="km">66.5</distancia>
+    </puerto>
+    <puerto categoria="tercera" bonificado="no">
+      <nombre>Puerto de Fuente de Rubielos</nombre>
+      <coordenadas>
+        <longitud unidades="grados">-0º 37' 10.20''</longitud>
+        <latitud unidades="grados">40º 10' 22.80''</latitud>
+        <altitud unidades="m">1003</altitud>
+      </coordenadas>
+      <distancia unidades="km">104.9</distancia>
+    </puerto>
+    <sprint_intermedio bonificado="si">
+      <nombre>Sprint intermedio (Mora de Rubielos)</nombre>
+      <coordenadas>
+        <longitud unidades="grados">-0º 44' 52.80''</longitud>
+        <latitud unidades="grados">40º 15' 41.40''</latitud>
+        <altitud unidades="m">1052</altitud>
+      </coordenadas>
+      <distancia unidades="km">123.3</distancia>
+    </sprint_intermedio>
+    <puerto categoria="segunda" bonificado="no">
+      <nombre>Puerto de San Rafael</nombre>
+      <coordenadas>
+        <longitud unidades="grados">-0º 42' 34.56''</longitud>
+        <latitud unidades="grados">40º 20' 42.00''</latitud>
+        <altitud unidades="m">1562</altitud>
+      </coordenadas>
+      <distancia unidades="km">136.3</distancia>
+    </puerto>
+  </hitos>
+
+  <puntos_anonimos>
+    <punto nombre="Vilafamés">
+      <coordenadas>
+        <longitud unidades="grados">-0º 03' 10.80''</longitud>
+        <latitud unidades="grados">40º 07' 08.40''</latitud>
+        <altitud unidades="m">260</altitud>
+      </coordenadas>
+      <distancia unidades="km">5.3</distancia>
+    </punto>
+    <punto nombre="La Barona">
+      <coordenadas>
+        <longitud unidades="grados">-0º 03' 49.57''</longitud>
+        <latitud unidades="grados">40º 09' 59.29''</latitud>
+        <altitud unidades="m">256</altitud>
+      </coordenadas>
+      <distancia unidades="km">10.8</distancia>
+    </punto>
+    <punto nombre="Les Useres">
+      <coordenadas>
+        <longitud unidades="grados">-0º 09' 46.19''</longitud>
+        <latitud unidades="grados">40º 09' 26.06''</latitud>
+        <altitud unidades="m">401</altitud>
+      </coordenadas>
+      <distancia unidades="km">20</distancia>
+    </punto>
+    <punto nombre="Mas d'Avall">
+      <coordenadas>
+        <longitud unidades="grados">-0º 10' 16.43''</longitud>
+        <latitud unidades="grados">40º 07' 42.60''</latitud>
+        <altitud unidades="m">410</altitud>
+      </coordenadas>
+      <distancia unidades="km">27.1</distancia>
+    </punto>
+    <punto nombre="Costur">
+      <coordenadas>
+        <longitud unidades="grados">-0º 10' 25.86''</longitud>
+        <latitud unidades="grados">40º 07' 10.96''</latitud>
+        <altitud unidades="m">472</altitud>
+      </coordenadas>
+      <distancia unidades="km">28.3</distancia>
+    </punto>
+    <punto nombre="Figueroles">
+      <coordenadas>
+        <longitud unidades="grados">-0º 14' 17.16''</longitud>
+        <latitud unidades="grados">40º 07' 02.64''</latitud>
+        <altitud unidades="m">437</altitud>
+      </coordenadas>
+      <distancia unidades="km">36.3</distancia>
+    </punto>
+    <punto nombre="Lucena del Cid">
+      <coordenadas>
+        <longitud unidades="grados">-0º 16' 59.99''</longitud>
+        <latitud unidades="grados">40º 07' 59.99''</latitud>
+        <altitud unidades="m">623</altitud>
+      </coordenadas>
+      <distancia unidades="km">42.3</distancia>
+    </punto>
+    <punto nombre="Castillo de Villamalefa">
+      <coordenadas>
+        <longitud unidades="grados">-0º 22' 49.40''</longitud>
+        <latitud unidades="grados">40º 07' 49.80''</latitud>
+        <altitud unidades="m">787</altitud>
+      </coordenadas>
+      <distancia unidades="km">55.9</distancia>
+    </punto>
+    <punto nombre="Zucaina">
+      <coordenadas>
+        <longitud unidades="grados">-0º 25' 08.18''</longitud>
+        <latitud unidades="grados">40º 07' 55.16''</latitud>
+        <altitud unidades="m">812</altitud>
+      </coordenadas>
+      <distancia unidades="km">66.3</distancia>
+    </punto>
+    <punto nombre="Montanejos">
+      <coordenadas>
+        <longitud unidades="grados">-0º 31' 22.44''</longitud>
+        <latitud unidades="grados">40º 04' 05.52''</latitud>
+        <altitud unidades="m">461</altitud>
+      </coordenadas>
+      <distancia unidades="km">83.4</distancia>
+    </punto>
+    <punto nombre="Puebla de Arenoso">
+      <coordenadas>
+        <longitud unidades="grados">-0º 35' 34.01''</longitud>
+        <latitud unidades="grados">40º 06' 17.60''</latitud>
+        <altitud unidades="m">740</altitud>
+      </coordenadas>
+      <distancia unidades="km">93.8</distancia>
+    </punto>
+    <punto nombre="Los Cantos">
+      <coordenadas>
+        <longitud unidades="grados">-0º 36' 32.58''</longitud>
+        <latitud unidades="grados">40º 06' 58.93''</latitud>
+        <altitud unidades="m">697</altitud>
+      </coordenadas>
+      <distancia unidades="km">96.2</distancia>
+    </punto>
+    <punto nombre="Olba">
+      <coordenadas>
+        <longitud unidades="grados">-0º 37' 00.01''</longitud>
+        <latitud unidades="grados">40º 07' 59.99''</latitud>
+        <altitud unidades="m">647</altitud>
+      </coordenadas>
+      <distancia unidades="km">100</distancia>
+    </punto>
+    <punto nombre="Fuentes de Rubielos">
+      <coordenadas>
+        <longitud unidades="grados">-0º 37' 07.68''</longitud>
+        <latitud unidades="grados">40º 10' 09.12''</latitud>
+        <altitud unidades="m">981</altitud>
+      </coordenadas>
+      <distancia unidades="km">104.4</distancia>
+    </punto>
+    <punto nombre="Rubielos de Mora">
+      <coordenadas>
+        <longitud unidades="grados">-0º 39' 11.05''</longitud>
+        <latitud unidades="grados">40º 11' 20.18''</latitud>
+        <altitud unidades="m">938</altitud>
+      </coordenadas>
+      <distancia unidades="km">109.9</distancia>
+    </punto>
+    <punto nombre="Mora de Rubielos">
+      <coordenadas>
+        <longitud unidades="grados">-0º 45' 12.24''</longitud>
+        <latitud unidades="grados">40º 15' 05.76''</latitud>
+        <altitud unidades="m">1064</altitud>
+      </coordenadas>
+      <distancia unidades="km">122</distancia>
+    </punto>
+    <punto nombre="Virgen de la Vega">
+      <coordenadas>
+        <longitud unidades="grados">-0º 42' 07.56''</longitud>
+        <latitud unidades="grados">40º 21' 38.63''</latitud>
+        <altitud unidades="m">1409</altitud>
+      </coordenadas>
+      <distancia unidades="km">138.5</distancia>
+    </punto>
+  </puntos_anonimos>
+
+  <clasificacion_etapa>
+    <clasificado posicion="1">
+      <nombre>Andreas Leknessund</nombre>
+      <equipo>UNO-X Mobility</equipo>
+    </clasificado>
+    <clasificado posicion="2">
+      <nombre>Tobias Johannessen</nombre>
+      <equipo>UNO-X Mobility</equipo>
+      <diferencia>+0:00:34</diferencia>
+    </clasificado>
+    <clasificado posicion="3">
+      <nombre>Wout Van Aert</nombre>
+      <equipo>Team Visma</equipo>
+      <diferencia>+0:00:47</diferencia>
+    </clasificado>
+  </clasificacion_etapa>
+
+  <clasificacion_general>
+    <clasificado posicion="1">
+      <nombre>Tadej Pogacar</nombre>
+      <equipo>Team UAE Team Emirates</equipo>
+    </clasificado>
+    <clasificado posicion="2">
+      <nombre>Enric Mas</nombre>
+      <equipo>Movistar Team</equipo>
+      <diferencia>+0:03:50</diferencia>
+    </clasificado>
+    <clasificado posicion="3">
+      <nombre>Primoz Roglic</nombre>
+      <equipo>Red Bull Bora Hansgrohe</equipo>
+      <diferencia>+0:04:50</diferencia>
+    </clasificado>
+  </clasificacion_general>
+
+  <clasificacion_equipos>
+    <equipo_clasificado posicion="1">
+      <nombre>Decathlon CMA CGM Team</nombre>
+    </equipo_clasificado>
+    <equipo_clasificado posicion="2">
+      <nombre>UAE Team Emirates </nombre>
+      <diferencia>+0:12:04</diferencia>
+    </equipo_clasificado>
+    <equipo_clasificado posicion="3">
+      <nombre>Team Visma</nombre>
+      <diferencia>+0:20:35</diferencia>
+    </equipo_clasificado>
+  </clasificacion_equipos>
+</etapa>

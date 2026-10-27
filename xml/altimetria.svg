@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="740" viewBox="0 0 1280 740">
+  <title>Altimetría de la etapa 7</title>
+  <rect width="1280" height="740" fill="white" />
+  <text font-size="29" font-weight="bold" x="85" y="48" fill="#253b4e">ALTIMETRÍA</text>
+  <text font-size="17" x="85" y="77" fill="#42586c">Etapa 7 · Vall D’Alba a Aramón Valdelinares</text>
+  <text text-anchor="end" font-size="21" x="1225" y="50" fill="#c64737">149.8 km</text>
+  <line x1="85" y1="560.0" x2="1225" y2="560.0" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="564.0" fill="#607487">0</text>
+  <line x1="85" y1="515.6" x2="1225" y2="515.6" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="519.6" fill="#607487">250</text>
+  <line x1="85" y1="471.2" x2="1225" y2="471.2" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="475.2" fill="#607487">500</text>
+  <line x1="85" y1="426.9" x2="1225" y2="426.9" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="430.9" fill="#607487">750</text>
+  <line x1="85" y1="382.5" x2="1225" y2="382.5" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="386.5" fill="#607487">1000</text>
+  <line x1="85" y1="338.1" x2="1225" y2="338.1" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="342.1" fill="#607487">1250</text>
+  <line x1="85" y1="293.8" x2="1225" y2="293.8" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="297.8" fill="#607487">1500</text>
+  <line x1="85" y1="249.4" x2="1225" y2="249.4" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="253.4" fill="#607487">1750</text>
+  <line x1="85" y1="205.0" x2="1225" y2="205.0" stroke="#dde5eb" />
+  <text font-size="11" text-anchor="end" x="73" y="209.0" fill="#607487">2000</text>
+  <line x1="85.0" y1="205" x2="85.0" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="85.0" y="583" fill="#607487">0</text>
+  <line x1="275.3" y1="205" x2="275.3" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="275.3" y="583" fill="#607487">25</text>
+  <line x1="465.5" y1="205" x2="465.5" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="465.5" y="583" fill="#607487">50</text>
+  <line x1="655.8" y1="205" x2="655.8" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="655.8" y="583" fill="#607487">75</text>
+  <line x1="846.0" y1="205" x2="846.0" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="846.0" y="583" fill="#607487">100</text>
+  <line x1="1036.3" y1="205" x2="1036.3" y2="560" stroke="#edf1f4" />
+  <text text-anchor="middle" font-size="11" x="1036.3" y="583" fill="#607487">125</text>
+  <text text-anchor="middle" font-size="11" x="1225" y="583" fill="#607487">149.8</text>
+  <text font-size="12" x="85" y="193" fill="#607487">Altitud (m)</text>
+  <text text-anchor="end" font-size="12" x="1225" y="608" fill="#607487">Distancia (km)</text>
+  <polyline fill-opacity="0.7" points="85.0,511.2 125.3,513.9 167.2,514.6 237.2,488.8 291.2,487.2 300.4,476.2 361.2,482.4 406.9,449.4 482.2,385.2 510.4,420.3 589.6,415.9 591.1,404.3 719.7,478.2 798.8,428.6 817.1,436.3 846.0,445.2 879.5,385.9 883.3,382.0 921.4,393.5 1013.4,371.1 1023.3,373.3 1122.3,282.7 1139.0,309.9 1225.0,211.6 1225,560 85,560" fill="#f3b39e" stroke="none" />
+  <polyline stroke-width="3" points="85.0,511.2 125.3,513.9 167.2,514.6 237.2,488.8 291.2,487.2 300.4,476.2 361.2,482.4 406.9,449.4 482.2,385.2 510.4,420.3 589.6,415.9 591.1,404.3 719.7,478.2 798.8,428.6 817.1,436.3 846.0,445.2 879.5,385.9 883.3,382.0 921.4,393.5 1013.4,371.1 1023.3,373.3 1122.3,282.7 1139.0,309.9 1225.0,211.6" fill="none" stroke="#c64737" />
+  <g>
+    <title>Salida lanzada en la CV-158, dirección Vilafamés: km 0, 275 m</title>
+    <circle cx="85.0" cy="511.2" r="5" fill="#16a5bd" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 80.0 190)" x="80.0" y="190" fill="#16a5bd">SALIDA</text>
+  <text font-size="11" text-anchor="start" x="93.0" y="501.2" fill="#16a5bd">275 m</text>
+  <g>
+    <title>Vilafamés: km 5.3, 260 m</title>
+    <circle cx="125.3" cy="513.9" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>La Barona: km 10.8, 256 m</title>
+    <circle cx="167.2" cy="514.6" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Les Useres: km 20, 401 m</title>
+    <circle cx="237.2" cy="488.8" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Mas d'Avall: km 27.1, 410 m</title>
+    <circle cx="291.2" cy="487.2" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Costur: km 28.3, 472 m</title>
+    <circle cx="300.4" cy="476.2" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Figueroles: km 36.3, 437 m</title>
+    <circle cx="361.2" cy="482.4" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Lucena del Cid: km 42.3, 623 m</title>
+    <circle cx="406.9" cy="449.4" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Puerto El Remolcador: km 52.2, 985 m</title>
+    <circle cx="482.2" cy="385.2" r="5" fill="#984bab" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 477.2 190)" x="477.2" y="190" fill="#984bab">Remolcador</text>
+  <text font-size="11" text-anchor="start" x="490.2" y="375.2" fill="#984bab">985 m</text>
+  <g>
+    <title>Castillo de Villamalefa: km 55.9, 787 m</title>
+    <circle cx="510.4" cy="420.3" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Zucaina: km 66.3, 812 m</title>
+    <circle cx="589.6" cy="415.9" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Alto de Zucaina: km 66.5, 877 m</title>
+    <circle cx="591.1" cy="404.3" r="5" fill="#984bab" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 586.1 190)" x="586.1" y="190" fill="#984bab">Zucaina</text>
+  <text font-size="11" text-anchor="start" x="599.1" y="394.3" fill="#984bab">877 m</text>
+  <g>
+    <title>Montanejos: km 83.4, 461 m</title>
+    <circle cx="719.7" cy="478.2" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Puebla de Arenoso: km 93.8, 740 m</title>
+    <circle cx="798.8" cy="428.6" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Los Cantos: km 96.2, 697 m</title>
+    <circle cx="817.1" cy="436.3" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Olba: km 100, 647 m</title>
+    <circle cx="846.0" cy="445.2" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Fuentes de Rubielos: km 104.4, 981 m</title>
+    <circle cx="879.5" cy="385.9" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Puerto de Fuente de Rubielos: km 104.9, 1003 m</title>
+    <circle cx="883.3" cy="382.0" r="5" fill="#984bab" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 878.3 190)" x="878.3" y="190" fill="#984bab">Fuente Rubielos</text>
+  <text font-size="11" text-anchor="start" x="891.3" y="372.0" fill="#984bab">1003 m</text>
+  <g>
+    <title>Rubielos de Mora: km 109.9, 938 m</title>
+    <circle cx="921.4" cy="393.5" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Mora de Rubielos: km 122, 1064 m</title>
+    <circle cx="1013.4" cy="371.1" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Sprint intermedio (Mora de Rubielos): km 123.3, 1052 m</title>
+    <circle cx="1023.3" cy="373.3" r="5" fill="#b98d00" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 1018.3 190)" x="1018.3" y="190" fill="#b98d00">SPRINT</text>
+  <text font-size="11" text-anchor="start" x="1031.3" y="363.3" fill="#b98d00">1052 m</text>
+  <g>
+    <title>Puerto de San Rafael: km 136.3, 1562 m</title>
+    <circle cx="1122.3" cy="282.7" r="5" fill="#984bab" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 1117.3 190)" x="1117.3" y="190" fill="#984bab">San Rafael</text>
+  <text font-size="11" text-anchor="start" x="1130.3" y="272.7" fill="#984bab">1562 m</text>
+  <g>
+    <title>Virgen de la Vega: km 138.5, 1409 m</title>
+    <circle cx="1139.0" cy="309.9" r="3" fill="#318568" />
+  </g>
+  <g>
+    <title>Estación de esquí de Aramón Valdelinares: km 149.8, 1963 m</title>
+    <circle cx="1225.0" cy="211.6" r="5" fill="#d74736" />
+  </g>
+  <text font-size="12" font-weight="bold" transform="rotate(-90 1220.0 190)" x="1220.0" y="190" fill="#d74736">META</text>
+  <text font-size="11" text-anchor="end" x="1217.0" y="201.6" fill="#d74736">1963 m</text>
+  <text font-size="12" x="85" y="680" fill="#607487">Perfil aproximado: los puntos del XML se unen mediante segmentos rectos.</text>
+</svg>

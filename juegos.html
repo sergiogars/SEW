@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Sergio García Santamarina" />
+    <meta name="description" content="Documento sobre los juegos en el proyecto LaVuelta2026" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+   <header>
+                <h1><a href="index.html">LaVuelta2026</a></h1>
+
+
+       <nav>
+        <a href="index.html" title="Ir a la página de inicio">Inicio</a>
+        <a href="ciclista.html" title="Consultar la información de Carlos Rodriguez">Ciclista</a>
+        <a href="equipo.html" title="Consultar la información de NETCOMPANY INEOS CYCLING TEAM">Equipo</a>
+        <a href="etapa.html" title="Consultar la información de la etapa">Etapa</a>
+        <a href="meteorologia.html" title="Consultar la meteorología">Meteorología</a>
+        <a href="clasificaciones.html" title="Consultar las clasificaciones">Clasificaciones</a>
+        <a href="juegos.html" title="Acceder a los juegos" aria-current="page">Juegos</a>
+        <a href="ayuda.html" title="Consultar la ayuda del sitio">Ayuda</a>
+    </nav>
+    </header>
+    <nav aria-label="migas">
+    <ol>
+        <li><a href="index.html">Inicio</a> | </li>
+        <li>Juegos</li>
+    </ol>
+</nav>
+    <main>
+        <h2>Juegos</h2>
+        <h3>¿Conoces la etapa?</h3>
+
+        <p>
+            Responde a diez preguntas sobre la etapa 7 de La Vuelta 2026.
+            Puedes consultar la información en la página <a href="etapa.html">Etapa</a>.
+        </p>
+
+        <form>
+            <fieldset>
+                <legend>Etapa 7: Vall d'Alba a Aramón Valdelinares</legend>
+
+                <label for="numero-etapa">¿Qué número tiene la etapa?</label>
+                <input type="number" id="numero-etapa" min="1" max="21" />
+
+                <label for="fecha-etapa">¿En qué fecha se celebra?</label>
+                <input type="date" id="fecha-etapa"
+                       min="2026-08-22" max="2026-09-13" />
+
+                <label for="salida-etapa">¿Dónde comienza la etapa?</label>
+                <select id="salida-etapa">
+                    <option value="">Seleccione una opción</option>
+                    <option value="monaco">Monaco</option>
+                    <option value="gruissan">Gruissan - Aude</option>
+                    <option value="andorra">Andorra la Vella</option>
+                    <option value="falset">Falset . Costa Daurada</option>
+                    <option value="alcossebre">Alcossebre</option>
+                    <option value="vall-alba">Vall d'Alba</option>
+                    <option value="pucol">Puçol</option>
+                    <option value="villajoyosa">La Vila Joiosa / Villajoyosa</option>
+                    <option value="alcaraz">Alcaraz</option>
+                    <option value="cartagena">Cartagena</option>
+                    <option value="vera">Vera</option>
+                    <option value="almunecar">Almuñécar</option>
+                    <option value="jaen">Jaén</option>
+                    <option value="palma-rio">Palma del Río</option>
+                    <option value="cortegana">Cortegana</option>
+                    <option value="dos-hermanas">Dos Hermanas</option>
+                    <option value="puerto-santa-maria">El Puerto de Santa María</option>
+                    <option value="velez-malaga">Vélez-Málaga</option>
+                    <option value="la-calahorra">La Calahorra</option>
+                    <option value="carrefour-granada">Carrefour Granada</option>
+                </select>
+
+                <label for="llegada-etapa">¿Dónde termina la etapa?</label>
+                <select id="llegada-etapa">
+                    <option value="">Seleccione una opción</option>
+                    <option value="monaco">Monaco</option>
+                    <option value="manosque">Manosque</option>
+                    <option value="font-romeu">Font Romeu</option>
+                    <option value="andorra">Andorra la Vella</option>
+                    <option value="roquetes">Roquetes. Terres de l'Ebre</option>
+                    <option value="castello">Castelló</option>
+                    <option value="valdelinares">Aramón Valdelinares</option>
+                    <option value="xeraco">Xeraco</option>
+                    <option value="aitana">Alto de Aitana. Costa Blanca</option>
+                    <option value="elche-sierra">Elche de la Sierra</option>
+                    <option value="lorca">Lorca</option>
+                    <option value="calar-alto">Calar Alto</option>
+                    <option value="loja">Loja</option>
+                    <option value="la-pandera">Sierra de La Pandera</option>
+                    <option value="cordoba">Córdoba</option>
+                    <option value="la-rabida">La Rábida. Palos de la Frontera</option>
+                    <option value="sevilla">Sevilla</option>
+                    <option value="jerez">Jerez de la Frontera</option>
+                    <option value="penas-blancas">Peñas Blancas. Estepona</option>
+                    <option value="alguacil">Collado del Alguacil</option>
+                    <option value="granada">Granada</option>
+                </select>
+
+                <fieldset>
+                    <legend>¿Qué tipo de etapa es?</legend>
+                    <label for="tipo-llana"><input type="radio" id="tipo-llana" name="tipo-etapa" /> Llana</label>
+                    <label for="tipo-media"><input type="radio" id="tipo-media" name="tipo-etapa" /> Media montaña</label>
+                    <label for="tipo-montana"><input type="radio" id="tipo-montana" name="tipo-etapa" /> Montaña</label>
+                    <label for="tipo-cri"><input type="radio" id="tipo-cri" name="tipo-etapa" /> Contrarreloj individual</label>
+                    <label for="tipo-cre"><input type="radio" id="tipo-cre" name="tipo-etapa" /> Contrarreloj por equipos</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿Qué hitos aparecen en la etapa? Puedes marcar varios.</legend>
+                    <label for="hito-puerto"><input type="checkbox" id="hito-puerto" /> Puerto de montaña</label>
+                    <label for="hito-especial"><input type="checkbox" id="hito-especial" /> Puerto categoría especial</label>
+                    <label for="hito-sprint"><input type="checkbox" id="hito-sprint" /> Sprint intermedio</label>
+                    <label for="hito-bonificado"><input type="checkbox" id="hito-bonificado" /> Sprint bonificado</label>
+                    <label for="hito-ninguno"><input type="checkbox" id="hito-ninguno" /> Sin hitos</label>
+                </fieldset>
+
+                <label for="dificultad">Valora la dificultad de la etapa del 1 al 10:</label>
+                <input type="range" id="dificultad" min="1" max="10" />
+
+                <label for="longitud">¿Cuántos kilómetros tiene la etapa?</label>
+                <input type="number" id="longitud" min="0" step="0.1" />
+
+                <label for="desnivel">¿Cuál es el desnivel acumulado, en metros?</label>
+                <input type="number" id="desnivel" min="0" />
+
+                <label for="descripcion">Describe brevemente la etapa:</label>
+                <textarea id="descripcion" rows="4" cols="40"></textarea>
+
+                <label for="participante">Tu nombre:</label>
+                <input type="text" id="participante" />
+
+                <button type="submit">Enviar respuestas</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+    <p>Sergio García Santamarina</p>
+    <address>
+        <a href="mailto:UO294636@uniovi.es">UO294636@uniovi.es</a>
+    </address>
+</footer>
+</body>
+</html>
