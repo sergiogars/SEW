@@ -11,6 +11,6 @@ Como bonus adicional, se cuenta con una sección de juegos donde actualmente hay
 Actualmente esta desplegado en [Github Pages](https://sergiogars.github.io/SEW/).
 
 ## Tecnologías utilizadas
-Se usaron tanto JavaScript, CSS y HTML5, y se comprobó la usabilidad, adaptabilidad y accesibilidad con los estándares web actuales para [HTML5](https://validator.w3.org/nu/#file),
+Se usaron tanto JavaScript, CSS y HTML5 para la parte web y Python para tratar los XML y sacar la información e informes necesarios para completar la práctica, como pueden ser los pdfs de Altimetría y Planimetría, y se comprobó la usabilidad, adaptabilidad y accesibilidad con los estándares web actuales para [HTML5](https://validator.w3.org/nu/#file),
  [CSS](https://jigsaw.w3.org/css-validator/) y [Contraste de colores](https://caniuse.com/) . Además de haber usado Google Lighthouse, [Wave](http://wave.webaim.org/) y [Achecks](https://achecks.org/achecker/)
 
